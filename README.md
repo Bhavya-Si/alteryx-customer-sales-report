@@ -3,7 +3,7 @@
 ## Objective
 To build an automated Alteryx workflow that integrates customer and transaction data, applies business rules, and generates a ranked customer sales report for decision-making.
 
-## 🛠 Tools & Technologies
+## Tools & Technologies
 - Alteryx Designer
 - Excel (Reporting Output)
 
@@ -18,22 +18,22 @@ To build an automated Alteryx workflow that integrates customer and transaction 
 
 ## Workflow Overview
 
-### Step 1: Data Ingestion & Cleaning
+#### Step 1: Data Ingestion & Cleaning
 - Imported customer and transaction datasets
 - Applied data quality checks and field standardization
 
-### Step 2: Business Rule Filtering
+#### Step 2: Business Rule Filtering
 - Filtered customer data to exclude non-responders  
   *(Responder = 'No')*
 
-### Step 3: Transaction Aggregation
+#### Step 3: Transaction Aggregation
 - Aggregated transaction-level data to calculate **Total Sales per Customer**
 
-### Step 4: Data Integration
+#### Step 4: Data Integration
 - Joined customer master data with aggregated transaction data
 - Identified and logged transactions not matched to any customer
 
-### Step 5: Ranking & Selection
+#### Step 5: Ranking & Selection
 - Sorted customers by **Total Sales (Descending)**
 - Selected **Top 10 customers** by sales value
 
